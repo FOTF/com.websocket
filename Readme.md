@@ -6,5 +6,11 @@ Spring webSocket在jetty下在应用
 3、jetty版本要9.1+
 
 
+错误排除：
+1、
+错误提示：No suitable default RequestUpgradeStrategy found
+排查原因：可能是服务器没有启动web_socket模块
+
+
 本测试代码为gradle项目，直接导入即可运行。
 测试访问页面为:127.0.0.1/index.jsp
